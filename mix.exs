@@ -24,7 +24,7 @@ defmodule PhxLiveView.Mixfile do
       app:     @name,
       version: @version,
       deps:    @deps,
-      elixir:  "~> 1.4",
+      elixir:  "~> 1.8",
       package: package(),
       description:     @description,
       build_embedded:  in_production,
@@ -37,7 +37,7 @@ defmodule PhxLiveView.Mixfile do
       name:        @name,
       files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template", "extra"],
       maintainers: @maintainers,
-      licenses:    ["Apache 2.0"],
+      licenses:    ["MIT"],
       links:       %{
         "GitHub" => @github,
       },
