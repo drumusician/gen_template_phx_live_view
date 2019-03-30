@@ -17,7 +17,7 @@ mix archive.install hex mix_generator
 Install this template:
 
 ```
-mix template.install gen_template_phx_live_view
+mix template.install hex gen_template_phx_live_view
 ```
 
 ## Usage
